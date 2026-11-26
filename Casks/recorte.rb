@@ -1,11 +1,11 @@
 cask "recorte" do
-  version "0.4.0"
-  sha256 "54c576cd3348ba1565f0f0b64c5f984651d570f4e3a54a8f9e6ebf47133693b1"
+  version "0.5.1"
+  sha256 "076c0db1920bb2842249943f34d5557e15c4665e2cf60b60903eb214655196ff"
 
   url "https://github.com/cookiebytespt/Recorte/releases/download/#{version}/Recorte-#{version}.zip"
   name "Recorte"
   desc "Design and cut software for Liyu GF series vinyl cutters/plotters"
-  homepage "https://github.com/cookiebytespt/Recorte"
+  homepage "https://recorte.cookiebytes.pt"
 
   livecheck do
     url :url
